@@ -1,8 +1,5 @@
-Adding kafka related projects, will add information about all projects here
 
-
-Docker compose file to run zookeeper and kafka
-
+**How to run zookeeper and kafka using docker**
 1. Create docker-compose.yaml
 2. Add below details in this file.
 
