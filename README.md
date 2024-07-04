@@ -18,6 +18,7 @@
               environment:
                 KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
                 KAFKA_ADVERTISED_HOST_NAME: localhost
+                KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
 
 4. Go to file path from cmd or terminal and run below command to get zookeeper and kafka up and running
     1. docker compose -f docker-compose.yaml up
