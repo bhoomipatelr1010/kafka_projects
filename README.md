@@ -23,4 +23,13 @@
     1. docker compose -f docker-compose.yaml up
     2. docker compose -f docker-compose.yaml up -d (to run in background)
     3. docker ps - to check running container
+
+**How to create topic using kafka running in docker**
+
+1. Execute below command to open kafka editor
+   docker exec -it kafka /bin/sh
+2. Go to /opt/kafka/bin file, location can be different of kafka file but it will be under opt folder
+3. Run below command to create kafka topic 
+   kafka-topics.sh --create --topic my-topic --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
+
  
