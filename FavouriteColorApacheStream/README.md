@@ -24,6 +24,7 @@ Created topology using KTable and KStream, best example to learn how topology ca
   1. user1,red
   2. user2,green
   3. user1,green
+
 **Example of output of kafka topic**
 1. red 1
 2. green 1
