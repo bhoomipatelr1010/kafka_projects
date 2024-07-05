@@ -1,7 +1,7 @@
-**This project is just to get info about how many users are having green, blue or red as fav color.
-**
-**Some important command for kafka topic, producer and consumer
-**
+**This project is just to get info about how many users are having green, blue or red as fav color.**
+
+**Some important command for kafka topic, producer and consumer**
+
 1. kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic <topic_name>
 2. kafka-topics.sh --bootstrap-server localhost:9092 --list
 3. kafka-topics.sh --create --topic favourite-color-input --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
