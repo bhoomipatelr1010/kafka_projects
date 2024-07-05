@@ -28,5 +28,6 @@ Created topology using KTable and KStream, best example to learn how topology ca
 **Example of output of kafka topic**
 1. red 1
 2. green 1
-3.  green 2
-    red 0
+3. output for after 3rd input
+   1. green 2
+   2. red 0
