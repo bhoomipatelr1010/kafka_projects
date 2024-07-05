@@ -20,6 +20,12 @@ Created topology using KTable and KStream, best example to learn how topology ca
 7. kafka-console-producer.sh --broker-list localhost:9092 --topic favourite-color-input
 8. kafka-console-consumer.sh --bootstrap-server localhost:9092  --topic user-keys-and-colors --from-beginning --property print.key=true --property print.value=true  --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
 
-**Example for producer kafka topic value**
+**Example of input of kafka topic**
   1. user1,red
   2. user2,green
+  3. user1,green
+**Example of output of kafka topic**
+1. red 1
+2. green 1
+3.  green 2
+    red 0
