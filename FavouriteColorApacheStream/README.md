@@ -1,5 +1,7 @@
 **This project is just to get info about how many users are having green, blue or red as fav color.**
 
+Created to[ology using KTable and KStream, best example to learn how topology can be created and how KStream and KTable works internally.
+
 **Some important command for kafka topic, producer and consumer**
 
 1. kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic <topic_name>
